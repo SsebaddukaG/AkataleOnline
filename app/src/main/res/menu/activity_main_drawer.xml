@@ -3,34 +3,69 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/home"
 
-            android:title="Import" />
+            android:title="Home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/order"
 
-            android:title="Gallery" />
+            android:title="Make Order" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/shoping"
 
-            android:title="Slideshow" />
+            android:title="Shopping List" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/support"
 
-            android:title="Tools" />
+            android:title="Support" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Product Category">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/fruits"
 
-                android:title="Share" />
+                android:title="Fruits" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/food"
 
-                android:title="Send" />
+                android:title="Food" />
+
+            <item
+                android:id="@+id/poultry"
+
+                android:title="Poultry" />
+            <item
+                android:id="@+id/vegetables"
+
+                android:title="Vegetables" />
         </menu>
     </item>
 
+
+    <item android:title="Today's Offer">
+        <menu>
+            <item
+                android:id="@+id/box"
+
+                android:title="combo box" />
+            <item
+                android:id="@+id/bucket"
+
+                android:title="Big Bucket" />
+        </menu>
+    </item>
+
+    <item android:title="Katale Info">
+        <menu>
+            <item
+                android:id="@+id/about"
+
+                android:title="About Us" />
+            <item
+                android:id="@+id/contact"
+
+                android:title="Contact us" />
+        </menu>
+    </item>
 </menu>
